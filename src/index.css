@@ -38,20 +38,30 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Brand & data tokens */
+    --brand: 199 90% 45%;
+    --brand-foreground: 210 40% 98%;
+    --severity-early: 160 55% 42%;
+    --severity-intermediate: 40 92% 54%;
+    --severity-advanced: 0 75% 54%;
+    --gender-male: 210 85% 55%;
+    --gender-female: 330 70% 55%;
+    --chart-grid: 210 40% 90%;
+
+    /* Gradients & shadows */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand) / 0.18), hsl(var(--primary) / 0.08));
+    --shadow-soft: 0 10px 30px -12px hsl(var(--brand) / 0.25);
+    --shadow-glow: 0 0 40px hsl(var(--brand) / 0.35);
+    --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Sidebar tokens */
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -83,6 +93,17 @@ All colors MUST be HSL.
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+
+    /* Brand & data tokens (dark) */
+    --brand: 199 90% 50%;
+    --brand-foreground: 222.2 47.4% 11.2%;
+    --severity-early: 160 60% 48%;
+    --severity-intermediate: 40 95% 58%;
+    --severity-advanced: 0 80% 60%;
+    --gender-male: 210 90% 62%;
+    --gender-female: 330 75% 62%;
+    --chart-grid: 217.2 32.6% 24%;
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
