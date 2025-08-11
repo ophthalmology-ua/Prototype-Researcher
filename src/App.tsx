@@ -27,7 +27,7 @@ const App = () => (
               <Route path="/aggregates" element={<Aggregates />} />
               <Route path="/patients" element={<Patients />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<Dashboard />} />
             </Routes>
           </AppLayout>
         </HelmetProvider>
